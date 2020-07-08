@@ -1,0 +1,15 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+        <mat-label>User Name</mat-label>
+        <input matInput placeholder="user name" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="password" >
+    </mat-form-field>
+    <div>
+        <button mat-raised-button color="primary" class="button-gap" (click)="openDialog()">Login</button>
+        <button mat-raised-button (click)="signIn()">Sign in</button>
+    </div>
+</form>
